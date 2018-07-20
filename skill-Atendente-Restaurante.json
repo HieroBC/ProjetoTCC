@@ -1,0 +1,2803 @@
+{
+  "name": "Atendente Restaurante",
+  "created": "2018-03-09T17:55:20.935Z",
+  "intents": [
+    {
+      "intent": "duvidaRestaurante",
+      "created": "2018-05-14T11:29:09.326Z",
+      "updated": "2018-05-14T11:29:09.326Z",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "agradecimento",
+      "created": "2018-05-14T01:32:46.660Z",
+      "updated": "2018-05-14T01:34:27.274Z",
+      "examples": [
+        {
+          "text": "muito obrigado",
+          "created": "2018-05-14T01:34:11.446Z",
+          "updated": "2018-05-14T01:34:11.446Z"
+        },
+        {
+          "text": "vlw",
+          "created": "2018-05-14T01:34:27.274Z",
+          "updated": "2018-05-14T01:34:27.274Z"
+        },
+        {
+          "text": "valeu",
+          "created": "2018-05-14T01:34:13.891Z",
+          "updated": "2018-05-14T01:34:13.891Z"
+        },
+        {
+          "text": "obrigado",
+          "created": "2018-05-14T01:34:08.008Z",
+          "updated": "2018-05-14T01:34:08.008Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cumprimento",
+      "created": "2018-03-16T14:32:04.985Z",
+      "updated": "2018-05-14T01:55:21.170Z",
+      "examples": [
+        {
+          "text": "ola",
+          "created": "2018-04-16T12:40:42.922Z",
+          "updated": "2018-04-16T12:40:42.922Z"
+        },
+        {
+          "text": "boa noite",
+          "created": "2018-04-16T12:40:31.899Z",
+          "updated": "2018-04-16T12:40:31.899Z"
+        },
+        {
+          "text": "salve",
+          "created": "2018-05-14T01:55:21.170Z",
+          "updated": "2018-05-14T01:55:21.170Z"
+        },
+        {
+          "text": "bom dia",
+          "created": "2018-04-16T12:41:26.430Z",
+          "updated": "2018-04-16T12:41:26.430Z"
+        },
+        {
+          "text": "tudo bem?",
+          "created": "2018-04-16T12:40:55.675Z",
+          "updated": "2018-04-16T12:40:55.675Z"
+        },
+        {
+          "text": "oi",
+          "created": "2018-04-16T12:40:48.671Z",
+          "updated": "2018-04-16T12:40:48.671Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "despedida",
+      "created": "2018-05-14T01:33:08.105Z",
+      "updated": "2018-05-14T01:34:55.562Z",
+      "examples": [
+        {
+          "text": "tchau",
+          "created": "2018-05-14T01:34:37.172Z",
+          "updated": "2018-05-14T01:34:37.172Z"
+        },
+        {
+          "text": "até mais",
+          "created": "2018-05-14T01:34:42.117Z",
+          "updated": "2018-05-14T01:34:42.117Z"
+        },
+        {
+          "text": "flw",
+          "created": "2018-05-14T01:34:44.432Z",
+          "updated": "2018-05-14T01:34:44.432Z"
+        },
+        {
+          "text": "falou",
+          "created": "2018-05-14T01:34:47.382Z",
+          "updated": "2018-05-14T01:34:47.382Z"
+        },
+        {
+          "text": "tchau tchau",
+          "created": "2018-05-14T01:34:55.562Z",
+          "updated": "2018-05-14T01:34:55.562Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "solicitacao",
+      "created": "2018-05-14T01:33:20.454Z",
+      "updated": "2018-05-14T01:56:20.894Z",
+      "examples": [
+        {
+          "text": "gostaria de pedir esfihas",
+          "created": "2018-05-14T01:35:28.750Z",
+          "updated": "2018-05-14T01:35:28.750Z"
+        },
+        {
+          "text": "quero pedir uma pizza",
+          "created": "2018-05-14T01:35:18.380Z",
+          "updated": "2018-05-14T01:35:18.380Z"
+        },
+        {
+          "text": "gostaria de fazer um pedido",
+          "created": "2018-05-14T01:35:12.004Z",
+          "updated": "2018-05-14T01:35:12.004Z"
+        },
+        {
+          "text": "quero solicitar uma reserva",
+          "created": "2018-05-14T01:48:00.637Z",
+          "updated": "2018-05-14T01:48:00.637Z"
+        },
+        {
+          "text": "quero reservar um horario no restaurante",
+          "created": "2018-05-14T01:48:12.817Z",
+          "updated": "2018-05-14T01:48:12.817Z"
+        },
+        {
+          "text": "quero fazer um pedido",
+          "created": "2018-05-14T01:35:06.131Z",
+          "updated": "2018-05-14T01:35:06.131Z"
+        },
+        {
+          "text": "quero realizar uma compra",
+          "created": "2018-05-14T01:37:55.153Z",
+          "updated": "2018-05-14T01:37:55.153Z"
+        },
+        {
+          "text": "como faço pra pedir uma pizza?",
+          "created": "2018-05-14T01:38:20.545Z",
+          "updated": "2018-05-14T01:38:20.545Z"
+        },
+        {
+          "text": "como faço um pedido?",
+          "created": "2018-05-14T01:38:04.055Z",
+          "updated": "2018-05-14T01:38:04.055Z"
+        },
+        {
+          "text": "poderia reservar um horario pra mim?",
+          "created": "2018-05-14T01:48:25.798Z",
+          "updated": "2018-05-14T01:48:25.798Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "perguntarDisponibilidade",
+      "created": "2018-05-15T00:19:57.549Z",
+      "updated": "2018-05-15T00:20:26.362Z",
+      "examples": [
+        {
+          "text": "que dias voce tem?",
+          "created": "2018-05-15T00:20:06.990Z",
+          "updated": "2018-05-15T00:20:06.990Z"
+        },
+        {
+          "text": "quando voce tem livre?",
+          "created": "2018-05-15T00:20:12.281Z",
+          "updated": "2018-05-15T00:20:12.281Z"
+        },
+        {
+          "text": "em quais dias tem mesa disponivel?",
+          "created": "2018-05-15T00:20:26.362Z",
+          "updated": "2018-05-15T00:20:26.362Z"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "updated": "2018-05-26T21:34:35.939Z",
+  "entities": [
+    {
+      "entity": "Posicionamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "created": "2018-05-14T02:14:38.544Z",
+          "updated": "2018-05-14T02:14:38.544Z",
+          "metadata": null,
+          "synonyms": [
+            "Yep",
+            "pode"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nao",
+          "created": "2018-05-14T02:15:01.094Z",
+          "updated": "2018-05-14T02:24:11.059Z",
+          "metadata": null,
+          "synonyms": [
+            "não",
+            "nop"
+          ]
+        }
+      ],
+      "created": "2018-05-14T02:14:15.253Z",
+      "updated": "2018-05-14T02:24:11.059Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "Sabor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "doce de leite",
+          "created": "2018-05-14T14:38:09.486Z",
+          "updated": "2018-05-14T14:38:09.486Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peito de peru com cream cheese",
+          "created": "2018-05-14T11:43:07.499Z",
+          "updated": "2018-05-14T11:43:07.499Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peito de peru com mussarela",
+          "created": "2018-05-14T11:43:14.346Z",
+          "updated": "2018-05-14T11:43:14.346Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peperoni com mussarela",
+          "created": "2018-05-14T11:43:30.314Z",
+          "updated": "2018-05-14T11:43:30.314Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "portuguesa",
+          "created": "2018-05-14T11:43:37.227Z",
+          "updated": "2018-05-14T11:43:37.227Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "presunto com mussarela",
+          "created": "2018-05-14T11:43:44.421Z",
+          "updated": "2018-05-14T11:43:44.421Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quatro queijos",
+          "created": "2018-05-14T11:43:49.677Z",
+          "updated": "2018-05-14T11:43:49.677Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "banana",
+          "created": "2018-05-14T14:34:36.718Z",
+          "updated": "2018-05-14T14:34:36.718Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chocolate",
+          "created": "2018-05-14T14:34:54.754Z",
+          "updated": "2018-05-14T14:34:54.754Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "confeti",
+          "created": "2018-05-14T14:35:06.756Z",
+          "updated": "2018-05-14T14:35:18.969Z",
+          "metadata": null,
+          "synonyms": [
+            "confetti",
+            "confete"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "atum",
+          "created": "2018-05-14T11:32:22.888Z",
+          "updated": "2018-05-14T11:32:22.888Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dois queijos",
+          "created": "2018-05-14T11:40:25.282Z",
+          "updated": "2018-05-14T11:40:25.282Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "atum com catupiry",
+          "created": "2018-05-14T11:32:37.975Z",
+          "updated": "2018-05-14T11:33:42.049Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "alho com catupiry",
+          "created": "2018-05-14T11:31:16.999Z",
+          "updated": "2018-05-14T11:32:59.774Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "champignon com mussarela",
+          "created": "2018-05-14T11:40:14.515Z",
+          "updated": "2018-05-14T11:40:14.515Z",
+          "metadata": null,
+          "synonyms": [
+            "champinhom com mussarela"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "alho com mussarela",
+          "created": "2018-05-14T11:31:44.028Z",
+          "updated": "2018-05-14T11:33:32.620Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "frango com catupiry",
+          "created": "2018-05-14T11:40:35.242Z",
+          "updated": "2018-05-14T11:40:35.242Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "alho poro peito de peru com cream cheese",
+          "created": "2018-05-14T11:32:18.247Z",
+          "updated": "2018-05-14T11:34:23.102Z",
+          "metadata": null,
+          "synonyms": [
+            "alho poro e peito de peru com cream cheese"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "frango com mussarela",
+          "created": "2018-05-14T11:40:47.336Z",
+          "updated": "2018-05-14T11:40:47.336Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lombo com mussarela",
+          "created": "2018-05-14T11:41:06.227Z",
+          "updated": "2018-05-14T11:41:06.227Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "marguerita",
+          "created": "2018-05-14T11:41:10.625Z",
+          "updated": "2018-05-14T11:41:10.625Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "milho com catupiry",
+          "created": "2018-05-14T11:41:21.254Z",
+          "updated": "2018-05-14T11:41:21.254Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "atum com mussarela",
+          "created": "2018-05-14T11:34:52.940Z",
+          "updated": "2018-05-14T11:34:52.940Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bacon com catupiry",
+          "created": "2018-05-14T11:35:00.086Z",
+          "updated": "2018-05-14T11:35:00.086Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bacon com mussarela",
+          "created": "2018-05-14T11:35:10.186Z",
+          "updated": "2018-05-14T11:35:10.186Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "milho com mussarela",
+          "created": "2018-05-14T11:41:27.071Z",
+          "updated": "2018-05-14T11:41:27.071Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "brocolis alho catupiry",
+          "created": "2018-05-14T11:35:33.749Z",
+          "updated": "2018-05-14T11:35:33.749Z",
+          "metadata": null,
+          "synonyms": [
+            "brocolis com alho e catupiry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mussarela",
+          "created": "2018-05-14T11:41:34.741Z",
+          "updated": "2018-05-14T11:41:34.741Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "brocolis alho mussarela",
+          "created": "2018-05-14T11:37:01.543Z",
+          "updated": "2018-05-14T11:37:01.543Z",
+          "metadata": null,
+          "synonyms": [
+            "brocolis com alho e mussarela"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "queijo branco",
+          "created": "2018-05-14T11:43:54.209Z",
+          "updated": "2018-05-14T11:43:54.209Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "caipira",
+          "created": "2018-05-14T11:37:19.395Z",
+          "updated": "2018-05-14T11:37:19.395Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mussarela de bufala com tomate seco",
+          "created": "2018-05-14T11:42:26.446Z",
+          "updated": "2018-05-14T11:42:26.446Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "calabresa",
+          "created": "2018-05-14T11:37:43.699Z",
+          "updated": "2018-05-14T11:37:43.699Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "palmito com catupiry",
+          "created": "2018-05-14T11:42:33.457Z",
+          "updated": "2018-05-14T11:42:33.457Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "palmito com mussarela",
+          "created": "2018-05-14T11:42:40.867Z",
+          "updated": "2018-05-14T11:42:40.867Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peito de peru com catupiry",
+          "created": "2018-05-14T11:42:50.235Z",
+          "updated": "2018-05-14T11:42:50.235Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "calabresa com catupiry",
+          "created": "2018-05-14T11:38:16.915Z",
+          "updated": "2018-05-14T11:38:16.915Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "calabresa com mussarela",
+          "created": "2018-05-14T11:38:22.802Z",
+          "updated": "2018-05-14T11:38:22.802Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne",
+          "created": "2018-05-14T11:38:33.300Z",
+          "updated": "2018-05-14T11:38:33.300Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne seca com catupiry",
+          "created": "2018-05-14T11:38:41.495Z",
+          "updated": "2018-05-14T11:38:41.495Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne seca com mussarela",
+          "created": "2018-05-14T11:38:51.624Z",
+          "updated": "2018-05-14T11:38:51.624Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne com catupiry",
+          "created": "2018-05-14T11:39:04.666Z",
+          "updated": "2018-05-14T11:39:04.666Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne com mussarela",
+          "created": "2018-05-14T11:39:14.057Z",
+          "updated": "2018-05-14T11:39:14.057Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lombo com catupiry",
+          "created": "2018-05-14T11:40:58.441Z",
+          "updated": "2018-05-14T11:40:58.441Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peperoni com catupiry",
+          "created": "2018-05-14T11:43:22.810Z",
+          "updated": "2018-05-14T11:43:22.810Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "champignon com catupiry",
+          "created": "2018-05-14T11:39:46.008Z",
+          "updated": "2018-05-14T11:39:46.008Z",
+          "metadata": null,
+          "synonyms": [
+            "champinhom com catupiry"
+          ]
+        }
+      ],
+      "created": "2018-05-14T11:29:33.142Z",
+      "updated": "2018-05-14T14:38:09.486Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Solicitacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pedido",
+          "created": "2018-05-14T01:49:07.628Z",
+          "updated": "2018-05-15T00:27:35.609Z",
+          "metadata": null,
+          "synonyms": [
+            "pedir",
+            "entrega",
+            "delivery"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "reserva",
+          "created": "2018-05-14T01:49:23.953Z",
+          "updated": "2018-05-15T00:21:30.295Z",
+          "metadata": null,
+          "synonyms": [
+            "reservar",
+            "horario",
+            "agendar",
+            "agendamento"
+          ]
+        }
+      ],
+      "created": "2018-05-14T01:48:59.530Z",
+      "updated": "2018-05-15T00:27:35.609Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "created": "2018-05-14T01:51:05.443Z",
+      "updated": "2018-05-14T01:51:05.443Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "created": "2018-05-14T01:51:06.905Z",
+      "updated": "2018-05-14T01:51:06.905Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "Produto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pizza",
+          "created": "2018-05-14T01:50:16.500Z",
+          "updated": "2018-05-14T01:50:16.500Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "esfiha",
+          "created": "2018-05-14T01:50:28.071Z",
+          "updated": "2018-05-14T01:50:28.071Z",
+          "metadata": null,
+          "synonyms": [
+            "esfirra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "refrigerante",
+          "created": "2018-05-14T01:50:43.396Z",
+          "updated": "2018-05-14T01:50:43.396Z",
+          "metadata": null,
+          "synonyms": [
+            "refri",
+            "refresco"
+          ]
+        }
+      ],
+      "created": "2018-05-14T01:50:08.590Z",
+      "updated": "2018-05-14T01:50:48.631Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Acao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Finalizar",
+          "created": "2018-05-14T13:09:32.017Z",
+          "updated": "2018-05-14T13:09:32.017Z",
+          "metadata": null,
+          "synonyms": [
+            "fim",
+            "so isso"
+          ]
+        }
+      ],
+      "created": "2018-05-14T13:09:12.374Z",
+      "updated": "2018-05-14T13:09:32.017Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "created": "2018-05-14T01:51:03.696Z",
+      "updated": "2018-05-14T01:51:03.696Z",
+      "metadata": null,
+      "description": null
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2017-05-26"
+    }
+  },
+  "description": "Este workspace é um assistente de restaurante em que o usuário pode realizar pedidos, consultar cardápio, reservar horario, etc.",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "text": {
+          "values": [
+            "Até a próxima!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1526262848681",
+      "context": null,
+      "created": "2018-05-14T01:53:42.314Z",
+      "updated": "2018-05-14T01:54:50.217Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#despedida",
+      "description": null,
+      "dialog_node": "node_3_1526262823530",
+      "previous_sibling": "node_2_1526262803114"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "text": {
+          "values": [
+            "Por nada!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1526262848681",
+      "context": null,
+      "created": "2018-05-14T01:53:21.996Z",
+      "updated": "2018-05-14T01:54:43.800Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#agradecimento",
+      "description": null,
+      "dialog_node": "node_2_1526262803114",
+      "previous_sibling": "node_1_1526262749083"
+    },
+    {
+      "type": "standard",
+      "title": "Cumprimento",
+      "output": {
+        "text": {
+          "values": [
+            "Olá!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1526262848681",
+      "context": null,
+      "created": "2018-05-14T01:52:27.872Z",
+      "updated": "2018-05-14T01:54:37.009Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#cumprimento",
+      "description": null,
+      "dialog_node": "node_1_1526262749083",
+      "previous_sibling": null
+    },
+    {
+      "type": "slot",
+      "title": null,
+      "output": null,
+      "parent": "node_48_1526265766928",
+      "context": null,
+      "created": "2018-05-14T02:44:33.668Z",
+      "updated": "2018-05-14T02:44:33.668Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "slot_52_1526265874881",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Forma de pedido incorreta.",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe, não entendi... Por favor me informe seu pedido no seguinte formato: \"2 esfihas de mussarela\" para que eu possa anotar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1526303781850",
+      "context": null,
+      "created": "2018-05-14T18:20:20.729Z",
+      "updated": "2018-05-14T18:23:06.591Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_64_1526322021539",
+      "previous_sibling": "node_1_1526303308867"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar pedido",
+      "output": {
+        "text": {
+          "values": [
+            "Ok. Vou fechar seu pedido."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1526303781850",
+      "context": null,
+      "created": "2018-05-14T13:08:28.019Z",
+      "updated": "2018-05-14T17:16:36.583Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Posicionamento:Nao || @Acao:Finalizar",
+      "description": null,
+      "dialog_node": "node_1_1526303308867",
+      "previous_sibling": "node_12_1526304066377"
+    },
+    {
+      "type": "standard",
+      "title": "Refrigerante",
+      "output": {
+        "text": {
+          "values": [
+            "refri"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1526303781850",
+      "context": null,
+      "created": "2018-05-14T13:21:05.510Z",
+      "updated": "2018-05-14T18:25:19.264Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Produto:refrigerante",
+      "description": null,
+      "dialog_node": "node_12_1526304066377",
+      "previous_sibling": "node_11_1526304058044"
+    },
+    {
+      "type": "standard",
+      "title": "Esfiha",
+      "output": {
+        "text": {
+          "values": [
+            "esfiha"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1526303781850",
+      "context": null,
+      "created": "2018-05-14T13:20:57.182Z",
+      "updated": "2018-05-14T18:25:26.474Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Produto:esfiha",
+      "description": null,
+      "dialog_node": "node_11_1526304058044",
+      "previous_sibling": "node_10_1526304036387"
+    },
+    {
+      "type": "standard",
+      "title": "Pizza",
+      "output": {},
+      "parent": "node_2_1526303781850",
+      "context": null,
+      "created": "2018-05-14T13:20:36.026Z",
+      "updated": "2018-05-14T18:05:32.804Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Produto:pizza && @Sabor && @sys-number",
+      "description": null,
+      "dialog_node": "node_10_1526304036387",
+      "previous_sibling": null
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {},
+      "parent": "slot_52_1526265874881",
+      "context": null,
+      "created": "2018-05-14T02:44:34.377Z",
+      "updated": "2018-05-14T02:44:34.377Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "event_name": "focus",
+      "description": null,
+      "dialog_node": "handler_54_1526265874881",
+      "previous_sibling": "handler_53_1526265874881"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": null,
+      "parent": "slot_52_1526265874881",
+      "context": null,
+      "created": "2018-05-14T02:44:34.013Z",
+      "updated": "2018-05-14T02:44:34.013Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "event_name": "input",
+      "description": null,
+      "dialog_node": "handler_53_1526265874881",
+      "previous_sibling": null
+    },
+    {
+      "type": "frame",
+      "title": "Recebe horario",
+      "output": {
+        "text": {
+          "values": [
+            "Obrigada. Ainda temos mesas nesse horário."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_15_1526263433595",
+      "context": null,
+      "created": "2018-05-14T02:05:57.778Z",
+      "updated": "2018-05-14T02:49:53.298Z",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1526263682662"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_16_1526263555145",
+      "digress_out": "allow_all",
+      "previous_sibling": null,
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {
+        "text": "Preciso saber quantas pessoas virão ao restaurante."
+      },
+      "parent": "slot_25_1526263682663",
+      "context": null,
+      "created": "2018-05-14T02:08:05.034Z",
+      "updated": "2018-05-14T02:08:40.463Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "event_name": "focus",
+      "description": null,
+      "dialog_node": "handler_27_1526263682663",
+      "previous_sibling": "handler_26_1526263682663"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {},
+      "parent": "slot_25_1526263682663",
+      "context": {
+        "pessoas_reserva": "@sys-number"
+      },
+      "created": "2018-05-14T02:08:05.034Z",
+      "updated": "2018-05-14T02:08:47.228Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "description": null,
+      "dialog_node": "handler_26_1526263682663",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Algo mais?",
+      "output": {
+        "text": {
+          "values": [
+            "Anotado. O que mais?",
+            "Anotado. Mais alguma coisa?",
+            "Certo. Anotei. O que mais?",
+            "Anotado. Algo mais?",
+            "Ok. Algo mais?",
+            "Mais alguma coisa?",
+            "Perfeito. O que mais?",
+            "Anotado, algo a mais?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1526302984379",
+      "context": null,
+      "created": "2018-05-14T13:16:23.068Z",
+      "updated": "2018-05-14T17:15:09.596Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_2_1526303781850",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Checkout Pedido",
+      "output": {
+        "text": {
+          "values": [
+            "Perfeito! Agora vou precisar dos seus dados para realizar a entrega."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1526299116618",
+      "context": null,
+      "created": "2018-05-14T18:23:21.183Z",
+      "updated": "2018-05-14T18:24:02.144Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_65_1526322201850",
+      "previous_sibling": "node_11_1526302984379"
+    },
+    {
+      "type": "folder",
+      "title": "Loop de pedidos",
+      "output": null,
+      "parent": "node_1_1526299116618",
+      "context": null,
+      "created": "2018-05-14T13:03:03.518Z",
+      "updated": "2018-05-14T17:08:49.834Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "false",
+      "description": null,
+      "dialog_node": "node_11_1526302984379",
+      "previous_sibling": "node_3_1526299230762"
+    },
+    {
+      "type": "standard",
+      "title": "Inicia Pedido",
+      "output": {
+        "text": {
+          "values": [
+            "Beleza. Você pode fazer seu pedido agora, mas é importante que só peça um sabor a cada mensagem. Não se preocupe, você pode pedir o quanto quiser, mas pra eu poder me organizar preciso que siga essa recomendação. Você também pode corrigir a quantidade para um determinado sabor"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1526299116618",
+      "context": null,
+      "created": "2018-05-14T12:00:29.913Z",
+      "updated": "2018-05-14T18:46:52.602Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_3_1526299230762",
+      "previous_sibling": null
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {
+        "text": "Por gentileza, eu preciso saber o horário que você deseja reservar."
+      },
+      "parent": "slot_17_1526263585599",
+      "context": null,
+      "created": "2018-05-14T02:06:25.004Z",
+      "updated": "2018-05-14T02:07:34.684Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "event_name": "focus",
+      "description": null,
+      "dialog_node": "handler_19_1526263585599",
+      "previous_sibling": "handler_18_1526263585599"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {},
+      "parent": "slot_17_1526263585599",
+      "context": {
+        "hora_reserva": "@sys-time"
+      },
+      "created": "2018-05-14T02:06:24.673Z",
+      "updated": "2018-05-14T02:06:38.782Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "description": null,
+      "dialog_node": "handler_18_1526263585599",
+      "previous_sibling": null
+    },
+    {
+      "type": "slot",
+      "title": null,
+      "output": {},
+      "parent": "node_24_1526263682663",
+      "context": null,
+      "created": "2018-05-14T02:08:05.034Z",
+      "updated": "2018-05-14T02:08:46.902Z",
+      "metadata": {},
+      "variable": "$pessoas_reserva",
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "slot_25_1526263682663",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Reinicia Contexto Info",
+      "output": {},
+      "parent": "node_8_1526301608401",
+      "context": {
+        "nome": "",
+        "telefone": "",
+        "data_reserva": "",
+        "hora_reserva": "",
+        "pessoas_reserva": ""
+      },
+      "created": "2018-05-14T12:05:56.180Z",
+      "updated": "2018-05-15T00:26:16.484Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1526300950633"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_5_1526299557041",
+      "previous_sibling": "node_60_1526310187460"
+    },
+    {
+      "type": "standard",
+      "title": "Reinicia Contexto Pedidos",
+      "output": {},
+      "parent": "node_8_1526301608401",
+      "context": {
+        "E_atum": 0,
+        "P_atum": 0,
+        "E_carne": 0,
+        "P_carne": 0,
+        "E_banana": 0,
+        "P_banana": 0,
+        "E_caipira": 0,
+        "E_confeti": 0,
+        "P_caipira": 0,
+        "P_confeti": 0,
+        "E_calabresa": 0,
+        "E_chocolate": 0,
+        "E_mussarela": 0,
+        "P_calabresa": 0,
+        "P_chocolate": 0,
+        "P_mussarela": 0,
+        "E_marguerita": 0,
+        "E_portuguesa": 0,
+        "P_marguerita": 0,
+        "P_portuguesa": 0,
+        "E_dois_queijos": 0,
+        "P_dois_queijos": 0,
+        "E_doce_de_leite": 0,
+        "E_queijo_branco": 0,
+        "P_doce_de_leite": 0,
+        "P_queijo_branco": 0,
+        "E_quatro_queijos": 0,
+        "P_quatro_queijos": 0,
+        "E_alho_com_catupiry": 0,
+        "E_atum_com_catupiry": 0,
+        "P_alho_com_catupiry": 0,
+        "P_atum_com_catupiry": 0,
+        "E_alho_com_mussarela": 0,
+        "E_atum_com_mussarela": 0,
+        "E_bacon_com_catupiry": 0,
+        "E_carne_com_catupiry": 0,
+        "E_lombo_com_catupiry": 0,
+        "E_milho_com_catupiry": 0,
+        "P_alho_com_mussarela": 0,
+        "P_atum_com_mussarela": 0,
+        "P_bacon_com_catupiry": 0,
+        "P_carne_com_catupiry": 0,
+        "P_lombo_com_catupiry": 0,
+        "P_milho_com_catupiry": 0,
+        "E_bacon_com_mussarela": 0,
+        "E_carne_com_mussarela": 0,
+        "E_frango_com_catupiry": 0,
+        "E_lombo_com_mussarela": 0,
+        "E_milho_com_mussarela": 0,
+        "P_bacon_com_mussarela": 0,
+        "P_carne_com_mussarela": 0,
+        "P_frango_com_catupiry": 0,
+        "P_lombo_com_mussarela": 0,
+        "P_milho_com_mussarela": 0,
+        "E_frango_com_mussarela": 0,
+        "E_palmito_com_catupiry": 0,
+        "P_frango_com_mussarela": 0,
+        "P_palmito_com_catupiry": 0,
+        "E_palmito_com_mussarela": 0,
+        "E_peperoni_com_catupiry": 0,
+        "P_palmito_com_mussarela": 0,
+        "P_peperoni_com_catupiry": 0,
+        "E_brocolis_alho_catupiry": 0,
+        "E_calabresa_com_catupiry": 0,
+        "E_peperoni_com_mussarela": 0,
+        "E_presunto_com_mussarela": 0,
+        "P_brocolis_alho_catupiry": 0,
+        "P_calabresa_com_catupiry": 0,
+        "P_peperoni_com_mussarela": 0,
+        "P_presunto_com_mussarela": 0,
+        "E_brocolis_alho_mussarela": 0,
+        "E_calabresa_com_mussarela": 0,
+        "E_carne_seca_com_catupiry": 0,
+        "E_champignon_com_catupiry": 0,
+        "P_brocolis_alho_mussarela": 0,
+        "P_calabresa_com_mussarela": 0,
+        "P_carne_seca_com_catupiry": 0,
+        "P_champignon_com_catupiry": 0,
+        "E_carne_seca_com_mussarela": 0,
+        "E_champignon_com_mussarela": 0,
+        "P_carne_seca_com_mussarela": 0,
+        "P_champignon_com_mussarela": 0,
+        "E_peito_de_peru_com_catupiry": 0,
+        "P_peito_de_peru_com_catupiry": 0,
+        "E_peito_de_peru_com_mussarela": 0,
+        "P_peito_de_peru_com_mussarela": 0,
+        "E_peito_de_peru_com_cream_cheese": 0,
+        "P_peito_de_peru_com_cream_cheese": 0,
+        "E_mussarela_de_bufala_com_tomate_seco": 0,
+        "P_mussarela_de_bufala_com_tomate_seco": 0,
+        "E_alho_poro_peito_de_peru_com_cream_cheese": 0,
+        "P_alho_poro_peito_de_peru_com_cream_cheese": 0
+      },
+      "created": "2018-05-14T15:03:07.053Z",
+      "updated": "2018-05-14T15:23:19.628Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1526299557041"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_60_1526310187460",
+      "previous_sibling": null
+    },
+    {
+      "type": "frame",
+      "title": "Recebe quantidade de pessoas",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, temos uma mesa vaga pra você nesse dia."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_23_1526263682662",
+      "context": null,
+      "created": "2018-05-14T02:08:05.034Z",
+      "updated": "2018-05-14T02:50:09.911Z",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_28_1526263847805"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_24_1526263682663",
+      "previous_sibling": null
+    },
+    {
+      "type": "slot",
+      "title": null,
+      "output": {},
+      "parent": "node_16_1526263555145",
+      "context": null,
+      "created": "2018-05-14T02:06:24.322Z",
+      "updated": "2018-05-14T02:06:38.400Z",
+      "metadata": {},
+      "variable": "$hora_reserva",
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "slot_17_1526263585599",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Recebe Telefone",
+      "output": {
+        "text": {
+          "values": [
+            "Obrigado! Aguarde só mais um pouco enquanto eu confirmo sua reserva..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_47_1526265640892",
+      "context": {
+        "telefone": "<?input.text?>"
+      },
+      "created": "2018-05-14T02:42:45.682Z",
+      "updated": "2018-05-14T02:49:20.969Z",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_48_1526265766928",
+      "digress_out": "allow_all",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Perguntar Quantiade de Pessoas",
+      "output": {
+        "text": {
+          "values": [
+            "Agora só preciso saber para quantas pessoas é a reserva."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1526263116092",
+      "context": null,
+      "created": "2018-05-14T02:08:05.034Z",
+      "updated": "2018-05-14T11:59:08.329Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_23_1526263682662",
+      "previous_sibling": "node_15_1526263433595"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmar Reserva",
+      "output": {
+        "text": {
+          "values": [
+            "Posso confirmar então a reserva para $pessoas_reserva em $data_reserva, às $hora_reserva?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1526263116092",
+      "context": null,
+      "created": "2018-05-14T02:10:46.614Z",
+      "updated": "2018-05-14T11:59:10.157Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_28_1526263847805",
+      "previous_sibling": "node_23_1526263682662"
+    },
+    {
+      "type": "standard",
+      "title": "Solicita Telefone",
+      "output": {
+        "text": {
+          "values": [
+            "Agora me passa seu contato telefonico. Ah, e preciso que tenha o DDD também por favor!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1526263116092",
+      "context": null,
+      "created": "2018-05-14T02:40:39.626Z",
+      "updated": "2018-05-14T02:44:29.377Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_47_1526265640892",
+      "previous_sibling": "node_45_1526265367380"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntar Hora",
+      "output": {
+        "text": {
+          "values": [
+            "Agora preciso que me diga que horas você quer agendar a reserva."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1526263116092",
+      "context": null,
+      "created": "2018-05-14T02:03:52.345Z",
+      "updated": "2018-05-14T11:59:06.057Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_15_1526263433595",
+      "previous_sibling": "node_10_1526263146686"
+    },
+    {
+      "type": "standard",
+      "title": "Solicita Nome",
+      "output": {
+        "text": {
+          "values": [
+            "Me fala primeiro seu nome completo, por gentileza."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1526263116092",
+      "context": null,
+      "created": "2018-05-14T02:36:06.129Z",
+      "updated": "2018-05-14T02:37:31.613Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_45_1526265367380",
+      "previous_sibling": "node_28_1526263847805"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntar Data",
+      "output": {
+        "text": {
+          "values": [
+            "Para que dia você quer agendar sua reserva?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1526263116092",
+      "context": {},
+      "created": "2018-05-14T01:59:05.475Z",
+      "updated": "2018-05-14T11:59:03.954Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_10_1526263146686",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Recebe Nome",
+      "output": {
+        "text": {
+          "values": [
+            "Beleza, $name"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_45_1526265367380",
+      "context": {
+        "name": "<?input.text?>"
+      },
+      "created": "2018-05-14T02:39:46.224Z",
+      "updated": "2018-05-14T02:48:15.090Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_47_1526265640892"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_46_1526265587486",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Solicitação",
+      "output": {},
+      "parent": "node_5_1526262930236",
+      "context": null,
+      "created": "2018-05-14T01:55:48.636Z",
+      "updated": "2018-05-14T01:57:09.804Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#solicitacao",
+      "description": null,
+      "dialog_node": "node_6_1526262949901",
+      "previous_sibling": null
+    },
+    {
+      "type": "slot",
+      "title": null,
+      "output": {},
+      "parent": "node_11_1526263317665",
+      "context": null,
+      "created": "2018-05-14T02:02:21.047Z",
+      "updated": "2018-05-14T02:03:20.166Z",
+      "metadata": {},
+      "variable": "$data_reserva",
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "slot_12_1526263342292",
+      "previous_sibling": "handler_1_1526343723212"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "O restaurante fica aberto de segunda a sábado das 18h00 às 23h00, e domingo das 12h00 às 22h00."
+          ]
+        }
+      },
+      "parent": "node_11_1526263317665",
+      "context": null,
+      "created": "2018-05-15T00:24:16.273Z",
+      "updated": "2018-05-15T00:24:16.273Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#perguntarDisponibilidade",
+      "event_name": "generic",
+      "description": null,
+      "dialog_node": "handler_1_1526343723212",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_3_1526299230762",
+      "context": null,
+      "created": "2018-05-14T16:54:11.858Z",
+      "updated": "2018-05-14T16:55:02.832Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1526304036387"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_62_1526316852682",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Redireciona para determinar o pedido",
+      "output": {},
+      "parent": "node_64_1526322021539",
+      "context": null,
+      "created": "2018-05-14T18:47:49.430Z",
+      "updated": "2018-05-14T18:48:24.139Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1526304036387"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_66_1526323670239",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Pedido",
+      "output": {},
+      "parent": "node_6_1526262949901",
+      "context": null,
+      "created": "2018-05-14T01:57:14.511Z",
+      "updated": "2018-05-14T16:52:17.365Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1526299230762"
+      },
+      "conditions": "@Solicitacao:pedido",
+      "description": null,
+      "dialog_node": "node_8_1526263035732",
+      "previous_sibling": "node_7_1526263020741"
+    },
+    {
+      "type": "standard",
+      "title": "Reserva",
+      "output": {},
+      "parent": "node_6_1526262949901",
+      "context": null,
+      "created": "2018-05-14T01:56:59.550Z",
+      "updated": "2018-05-14T12:02:41.194Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1526263146686"
+      },
+      "conditions": "@Solicitacao:reserva",
+      "description": null,
+      "dialog_node": "node_7_1526263020741",
+      "previous_sibling": null
+    },
+    {
+      "type": "frame",
+      "title": "Recebe data",
+      "output": {
+        "text": {
+          "values": [
+            "Certo. Estaremos abertos nesse dia."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526263146686",
+      "context": null,
+      "created": "2018-05-14T02:01:56.394Z",
+      "updated": "2018-05-14T02:49:41.828Z",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_15_1526263433595"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_11_1526263317665",
+      "digress_out": "allow_all",
+      "previous_sibling": null,
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:13:29.085Z",
+      "updated": "2018-05-14T14:15:48.068Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:marguerita",
+      "description": null,
+      "dialog_node": "node_39_1526307202188",
+      "previous_sibling": "node_38_1526307186563"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Bacon com Mussarela: $P_bacon_com_mussarela"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_bacon_com_mussarela": "@sys-number"
+      },
+      "created": "2018-05-14T13:28:37.471Z",
+      "updated": "2018-05-14T19:14:43.527Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(bacon com mussarela)",
+      "description": null,
+      "dialog_node": "node_20_1526304518287",
+      "previous_sibling": "node_19_1526304498725"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:12:52.599Z",
+      "updated": "2018-05-14T14:13:02.796Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(lombo com catupiry)",
+      "description": null,
+      "dialog_node": "node_37_1526307173434",
+      "previous_sibling": "node_36_1526307165169"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Atum com catupiry: $P_atum_com_catupiry."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_atum_com_catupiry": "@sys-number"
+      },
+      "created": "2018-05-14T13:26:10.961Z",
+      "updated": "2018-05-14T19:06:02.105Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(atum com catupiry)",
+      "description": null,
+      "dialog_node": "node_17_1526304371808",
+      "previous_sibling": "node_16_1526304360996"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:15:50.197Z",
+      "updated": "2018-05-14T14:16:02.893Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(milho com catupiry)",
+      "description": null,
+      "dialog_node": "node_40_1526307350239",
+      "previous_sibling": "node_39_1526307202188"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T13:32:16.845Z",
+      "updated": "2018-05-14T13:32:25.618Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(carne com catupiry)",
+      "description": null,
+      "dialog_node": "node_28_1526304737707",
+      "previous_sibling": "node_27_1526304724725"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:39:32.723Z",
+      "updated": "2018-05-14T14:39:39.315Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(doce de leite)",
+      "description": null,
+      "dialog_node": "node_58_1526308773572",
+      "previous_sibling": "node_57_1526308761750"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:12:06.408Z",
+      "updated": "2018-05-14T14:12:20.453Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(champignon com mussarela)",
+      "description": null,
+      "dialog_node": "node_33_1526307127241",
+      "previous_sibling": "node_32_1526307022989"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe, não fazemos pizzas desse sabor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {},
+      "created": "2018-05-14T13:32:03.890Z",
+      "updated": "2018-05-14T20:08:46.878Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:carne || @Sabor:(carne com catupiry) && @Sabor:(carne com mussarela)",
+      "description": null,
+      "dialog_node": "node_27_1526304724725",
+      "previous_sibling": "node_26_1526304701181"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Alho poró e peito de peru com cream cheese: $P_alho_poro_peito_de_peru_com_cream_cheese."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_alho_poro_peito_de_peru_com_cream_cheese": "@sys-number"
+      },
+      "created": "2018-05-14T13:25:39.458Z",
+      "updated": "2018-05-14T18:59:20.606Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(alho poro peito de peru com cream cheese)",
+      "description": null,
+      "dialog_node": "node_15_1526304340311",
+      "previous_sibling": "node_14_1526304323479"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Brocolis, alho e catupiry: $P_brocolis_alho_catupiry"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_brocolis_alho_catupiry": "@sys-number"
+      },
+      "created": "2018-05-14T13:28:50.968Z",
+      "updated": "2018-05-14T19:15:47.739Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(brocolis alho catupiry)",
+      "description": null,
+      "dialog_node": "node_21_1526304531409",
+      "previous_sibling": "node_20_1526304518287"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:17:09.578Z",
+      "updated": "2018-05-14T14:17:17.546Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(palmito com mussarela)",
+      "description": null,
+      "dialog_node": "node_45_1526307429159",
+      "previous_sibling": "node_44_1526307414745"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:17:46.287Z",
+      "updated": "2018-05-14T14:18:08.474Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(peito de peru com mussarela)",
+      "description": null,
+      "dialog_node": "node_48_1526307467148",
+      "previous_sibling": "node_47_1526307457037"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:18:25.149Z",
+      "updated": "2018-05-14T14:18:31.478Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(peperoni com mussarela)",
+      "description": null,
+      "dialog_node": "node_50_1526307505976",
+      "previous_sibling": "node_49_1526307468853"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T13:32:29.658Z",
+      "updated": "2018-05-14T13:32:40.478Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(carne com mussarela)",
+      "description": null,
+      "dialog_node": "node_29_1526304750488",
+      "previous_sibling": "node_28_1526304737707"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza Caipira: $P_caipira"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_caipira": "@sys-number"
+      },
+      "created": "2018-05-14T13:29:32.180Z",
+      "updated": "2018-05-14T19:19:46.202Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1526304036387"
+      },
+      "conditions": "@Sabor:caipira",
+      "description": null,
+      "dialog_node": "node_23_1526304572960",
+      "previous_sibling": "node_22_1526304548794"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:10:22.153Z",
+      "updated": "2018-05-14T14:12:04.139Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(champignon com catupiry)",
+      "description": null,
+      "dialog_node": "node_32_1526307022989",
+      "previous_sibling": "node_31_1526304776877"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:12:14.581Z",
+      "updated": "2018-05-14T14:12:32.431Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(dois queijos)",
+      "description": null,
+      "dialog_node": "node_34_1526307135428",
+      "previous_sibling": "node_33_1526307127241"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:16:53.903Z",
+      "updated": "2018-05-14T14:17:05.275Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(palmito com catupiry)",
+      "description": null,
+      "dialog_node": "node_44_1526307414745",
+      "previous_sibling": "node_43_1526307394852"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:19:13.031Z",
+      "updated": "2018-05-14T14:39:05.245Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:banana",
+      "description": null,
+      "dialog_node": "node_55_1526307553692",
+      "previous_sibling": "node_54_1526307551870"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:18:34.300Z",
+      "updated": "2018-05-14T14:18:50.685Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:portuguesa",
+      "description": null,
+      "dialog_node": "node_51_1526307514670",
+      "previous_sibling": "node_50_1526307505976"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:12:44.316Z",
+      "updated": "2018-05-14T14:12:50.360Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(frango com mussarela)",
+      "description": null,
+      "dialog_node": "node_36_1526307165169",
+      "previous_sibling": "node_35_1526307155671"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:17:43.212Z",
+      "updated": "2018-05-14T14:18:01.420Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(peito de peru com cream cheese)",
+      "description": null,
+      "dialog_node": "node_47_1526307457037",
+      "previous_sibling": "node_46_1526307440351"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:17:19.532Z",
+      "updated": "2018-05-14T14:17:31.968Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(peito de peru com catupiry)",
+      "description": null,
+      "dialog_node": "node_46_1526307440351",
+      "previous_sibling": "node_45_1526307429159"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T13:32:43.549Z",
+      "updated": "2018-05-14T13:33:10.602Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(carne seca com catupiry)",
+      "description": null,
+      "dialog_node": "node_30_1526304764415",
+      "previous_sibling": "node_29_1526304750488"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Calabresa: $P_calabresa"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_calabresa": "@sys-number"
+      },
+      "created": "2018-05-14T13:31:18.180Z",
+      "updated": "2018-05-14T19:21:27.924Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:calabresa",
+      "description": null,
+      "dialog_node": "node_24_1526304679040",
+      "previous_sibling": "node_23_1526304572960"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:13:05.701Z",
+      "updated": "2018-05-14T14:13:13.895Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(lombo com mussarela)",
+      "description": null,
+      "dialog_node": "node_38_1526307186563",
+      "previous_sibling": "node_37_1526307173434"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Alho com Mussarela: $P_alho_com_mussarela."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_alho_com_mussarela": "@sys-number"
+      },
+      "created": "2018-05-14T13:25:22.655Z",
+      "updated": "2018-05-14T18:57:10.811Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(alho com mussarela)",
+      "description": null,
+      "dialog_node": "node_14_1526304323479",
+      "previous_sibling": "node_13_1526304244197"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:16:17.738Z",
+      "updated": "2018-05-14T14:16:30.135Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:mussarela",
+      "description": null,
+      "dialog_node": "node_42_1526307378537",
+      "previous_sibling": "node_41_1526307365926"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Brocolis, alho e mussarela: $P_brocolis_alho_mussarela"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_brocolis_alho_mussarela": "@sys-number"
+      },
+      "created": "2018-05-14T13:29:07.946Z",
+      "updated": "2018-05-14T19:16:34.955Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(brocolis alho mussarela)",
+      "description": null,
+      "dialog_node": "node_22_1526304548794",
+      "previous_sibling": "node_21_1526304531409"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:16:05.094Z",
+      "updated": "2018-05-14T14:16:14.770Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(milho com mussarela)",
+      "description": null,
+      "dialog_node": "node_41_1526307365926",
+      "previous_sibling": "node_40_1526307350239"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Atum: $P_atum"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_atum": "@sys-number"
+      },
+      "created": "2018-05-14T13:26:00.153Z",
+      "updated": "2018-05-14T19:00:07.005Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:atum",
+      "description": null,
+      "dialog_node": "node_16_1526304360996",
+      "previous_sibling": "node_15_1526304340311"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Calabresa com catupiry: $P_calabresa_com_catupiry"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_calabresa_com_catupiry": "@sys-number"
+      },
+      "created": "2018-05-14T13:31:32.605Z",
+      "updated": "2018-05-14T19:22:25.000Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(calabresa com catupiry)",
+      "description": null,
+      "dialog_node": "node_25_1526304693441",
+      "previous_sibling": "node_24_1526304679040"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:12:34.812Z",
+      "updated": "2018-05-14T14:12:41.412Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(frango com catupiry)",
+      "description": null,
+      "dialog_node": "node_35_1526307155671",
+      "previous_sibling": "node_34_1526307135428"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Atum com mussarela: $P_atum_com_mussarela."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_atum_com_mussarela": "@sys-number"
+      },
+      "created": "2018-05-14T13:28:03.338Z",
+      "updated": "2018-05-14T19:06:35.634Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(atum com mussarela)",
+      "description": null,
+      "dialog_node": "node_18_1526304484206",
+      "previous_sibling": "node_17_1526304371808"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:39:20.910Z",
+      "updated": "2018-05-14T14:39:26.930Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:confeti",
+      "description": null,
+      "dialog_node": "node_57_1526308761750",
+      "previous_sibling": "node_56_1526308749021"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Bacon com catupiry: $bacon_com_catupiry"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_bacon_com_catupiry": "@sys-number"
+      },
+      "created": "2018-05-14T13:28:17.887Z",
+      "updated": "2018-05-14T19:11:33.660Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(bacon com catupiry)",
+      "description": null,
+      "dialog_node": "node_19_1526304498725",
+      "previous_sibling": "node_18_1526304484206"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Calabresa com mussarela: $P_calabresa_com_mussarela"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_calabresa_com_mussarela": "@sys-number"
+      },
+      "created": "2018-05-14T13:31:40.390Z",
+      "updated": "2018-05-14T20:03:54.040Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(calabresa com mussarela)",
+      "description": null,
+      "dialog_node": "node_26_1526304701181",
+      "previous_sibling": "node_25_1526304693441"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:19:11.060Z",
+      "updated": "2018-05-14T14:19:38.895Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(queijo branco)",
+      "description": null,
+      "dialog_node": "node_54_1526307551870",
+      "previous_sibling": "node_53_1526307547842"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:18:52.983Z",
+      "updated": "2018-05-14T14:19:04.705Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(presunto com mussarela)",
+      "description": null,
+      "dialog_node": "node_52_1526307533836",
+      "previous_sibling": "node_51_1526307514670"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:19:07.007Z",
+      "updated": "2018-05-14T14:19:21.845Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(quatro queijos)",
+      "description": null,
+      "dialog_node": "node_53_1526307547842",
+      "previous_sibling": "node_52_1526307533836"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:39:08.196Z",
+      "updated": "2018-05-14T14:39:16.212Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:chocolate",
+      "description": null,
+      "dialog_node": "node_56_1526308749021",
+      "previous_sibling": "node_55_1526307553692"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:17:48.072Z",
+      "updated": "2018-05-14T14:18:23.304Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(peperoni com catupiry)",
+      "description": null,
+      "dialog_node": "node_49_1526307468853",
+      "previous_sibling": "node_48_1526307467148"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T13:32:56.666Z",
+      "updated": "2018-05-14T14:10:19.367Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(carne seca com mussarela)",
+      "description": null,
+      "dialog_node": "node_31_1526304776877",
+      "previous_sibling": "node_30_1526304764415"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {},
+      "parent": "node_10_1526304036387",
+      "context": null,
+      "created": "2018-05-14T14:16:34.403Z",
+      "updated": "2018-05-14T14:16:51.204Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Sabor:(mussarela de bufala com tomate seco)",
+      "description": null,
+      "dialog_node": "node_43_1526307394852",
+      "previous_sibling": "node_42_1526307378537"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Pizza de Alho com Catupiry: $P_alho_com_catupiry."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526304036387",
+      "context": {
+        "P_alho_com_catupiry": "@sys-number"
+      },
+      "created": "2018-05-14T13:24:03.344Z",
+      "updated": "2018-05-14T18:55:52.541Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1526303781850"
+      },
+      "conditions": "@Sabor:(alho com catupiry)",
+      "description": null,
+      "dialog_node": "node_13_1526304244197",
+      "previous_sibling": null
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {
+        "text": "Por favor, me informe a data em que deseja vir ao restaurante."
+      },
+      "parent": "slot_12_1526263342292",
+      "context": null,
+      "created": "2018-05-14T02:02:21.824Z",
+      "updated": "2018-05-14T02:03:05.229Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "event_name": "focus",
+      "description": null,
+      "dialog_node": "handler_14_1526263342292",
+      "previous_sibling": "handler_13_1526263342292"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": null,
+      "parent": "slot_12_1526263342292",
+      "context": {
+        "data_reserva": "@sys-date"
+      },
+      "created": "2018-05-14T02:02:21.446Z",
+      "updated": "2018-05-14T02:03:20.477Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "description": null,
+      "dialog_node": "handler_13_1526263342292",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Negativo",
+      "output": {
+        "text": {
+          "values": [
+            "Certo. Estou disponível caso precise!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_28_1526263847805",
+      "context": null,
+      "created": "2018-05-14T02:19:36.817Z",
+      "updated": "2018-05-14T02:24:45.162Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Posicionamento:Nao",
+      "description": null,
+      "dialog_node": "node_43_1526264378073",
+      "previous_sibling": "node_42_1526264375063"
+    },
+    {
+      "type": "standard",
+      "title": "Positivo",
+      "output": {
+        "text": {
+          "values": [
+            "Perfeito!!! Preciso saber seu nome e seu telefone para continuar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_28_1526263847805",
+      "context": null,
+      "created": "2018-05-14T02:19:33.808Z",
+      "updated": "2018-05-14T02:37:26.974Z",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_45_1526265367380"
+      },
+      "conditions": "@Posicionamento:Sim",
+      "description": null,
+      "dialog_node": "node_42_1526264375063",
+      "previous_sibling": null
+    },
+    {
+      "type": "folder",
+      "title": "Entender Solicitação",
+      "output": null,
+      "parent": null,
+      "context": null,
+      "created": "2018-05-14T01:55:29.021Z",
+      "updated": "2018-05-14T01:58:07.530Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_5_1526262930236",
+      "previous_sibling": "node_4_1526262848681"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "text": {
+          "values": [
+            "Me desculpe, ainda estou em desenvolvimento e não consigo te responder ainda. Você pode tentar pereguntar de outra maneira."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2018-05-14T01:51:21.532Z",
+      "updated": "2018-05-26T21:34:35.939Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1526299116618"
+    },
+    {
+      "type": "folder",
+      "title": "Miscelânea",
+      "output": null,
+      "parent": null,
+      "context": null,
+      "created": "2018-05-14T01:54:07.455Z",
+      "updated": "2018-05-14T01:54:26.187Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "digress_in": "does_not_return",
+      "description": null,
+      "dialog_node": "node_4_1526262848681",
+      "previous_sibling": "node_6_1526300950633"
+    },
+    {
+      "type": "folder",
+      "title": "Controles",
+      "output": null,
+      "parent": null,
+      "context": null,
+      "created": "2018-05-14T12:40:07.580Z",
+      "updated": "2018-05-15T00:26:25.098Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "false",
+      "description": null,
+      "dialog_node": "node_8_1526301608401",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "### Dialogos Efetivos Abaixo ###",
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2018-05-14T12:29:09.987Z",
+      "updated": "2018-05-14T12:29:34.433Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "false",
+      "description": null,
+      "dialog_node": "node_6_1526300950633",
+      "previous_sibling": "node_8_1526301608401"
+    },
+    {
+      "type": "folder",
+      "title": "Fluxo de Pedido",
+      "output": null,
+      "parent": null,
+      "context": null,
+      "created": "2018-05-14T11:58:36.262Z",
+      "updated": "2018-05-14T11:58:47.282Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "false",
+      "description": null,
+      "dialog_node": "node_1_1526299116618",
+      "previous_sibling": "node_9_1526263116092"
+    },
+    {
+      "type": "folder",
+      "title": "Fluxo de Reserva",
+      "output": null,
+      "parent": null,
+      "context": null,
+      "created": "2018-05-14T01:58:35.479Z",
+      "updated": "2018-05-14T01:58:55.178Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "false",
+      "description": null,
+      "dialog_node": "node_9_1526263116092",
+      "previous_sibling": "node_5_1526262930236"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "text": {
+          "values": [
+            "Oie. Eu me chamo Aria. Sou a atendente do Restaurante Inteligente. Ainda estou em desenvolvimento, então é claro que os pedidos e reservas que você fizer ainda não serão válidos (infelizmente), mas conversando comigo pode ter certeza que vai agilizar meu desenvolvimento e em breve vai estar me pedindo comida hahaha! Se quiser, eu posso te contar sobre o restaurante também. Vamos começar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2018-05-14T01:51:21.532Z",
+      "updated": "2018-05-14T02:30:20.592Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "welcome",
+      "description": null,
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": null
+    }
+  ],
+  "workspace_id": "2a9d1571-d705-41e0-80c8-7a04a338e021",
+  "counterexamples": [],
+  "system_settings": null,
+  "learning_opt_out": false,
+  "status": "Available"
+}
